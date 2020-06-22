@@ -1,5 +1,9 @@
-import '../styles/styles.css'
+import "../styles/styles.css";
+import MenuItem from "./modules/MobileMenu";
+import MobileMenu from "./modules/MobileMenu";
+
+const mobileMenu = new MobileMenu();
 
 if (module.hot) {
-  module.hot.accept()
+  module.hot.accept();
 }
